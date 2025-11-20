@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon 17_thumbnail.mjs"
+    "dev": "nodemon 19_SocketIO.mjs"
   },
   "author": "",
   "license": "ISC",
@@ -20,7 +20,9 @@
     "jsonwebtoken": "^9.0.2",
     "multer": "^2.0.2",
     "sharp": "^0.34.5",
+    "socket.io": "^4.8.1",
     "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.1"
+    "swagger-ui-express": "^5.0.1",
+    "ws": "^8.18.3"
   }
 }
